@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Register</title>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js"></script>
+      <script>
+         (function () {
+            emailjs.init("Y-sxtmSnlC3Ap5CQs");
+         })();
+      </script>
+      <script src="../script/registration.js"></script>
+   </head>
+   <body>
+      <section class="vh-100" style="background-color: #435c7c">
+         <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+               <div class="col-lg-12 col-xl-11">
+                  <div class="card text-black" style="border-radius: 25px">
+                     <div class="card-body p-md-4">
+                        <div class="row justify-content-center">
+                           <div class="col-12 col-md-9 col-lg-6 col-xl-5 order-2 order-lg-1">
+                              <p class="text-center h1 fw-bold mb-3 mx-1 mx-md-4 mt-3">Sign up</p>
+
+                              <!--------------- register form -->
+                              <form class="mx-1 mx-md-4" id="registerForm">
+                                 <!-- first name field -->
+                                 <div class="d-flex flex-row align-items-center mb-4">
+                                    <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                    <div class="form-outline flex-fill mb-0">
+                                       <input type="text" id="firstName" required class="form-control" />
+                                       <label class="form-label" for="firstName">First Name</label>
+                                    </div>
+                                 </div>
+
+                                 <!-- last name field -->
+                                 <div class="d-flex flex-row align-items-center mb-4">
+                                    <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                    <div class="form-outline flex-fill mb-0">
+                                       <input type="text" id="lastName" required class="form-control" />
+                                       <label class="form-label" for="lastName">Last Name</label>
+                                    </div>
+                                 </div>
+
+                                 <!-- Address field -->
+                                 <div class="d-flex flex-row align-items-center mb-4">
+                                    <i class="fas fa-map-marker-alt me-3 fa-fw"></i>
+                                    <div class="form-outline flex-fill mb-0">
+                                       <input type="text" id="address" class="form-control" />
+                                       <label class="form-label" for="address">Address</label>
+                                    </div>
+                                 </div>
+
+                                 <!-- Age field -->
+                                 <div class="d-flex flex-row align-items-center mb-4">
+                                    <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                                    <div class="form-outline flex-fill mb-0">
+                                       <input type="number" id="age" class="form-control" required min="20" max="55" />
+                                       <label class="form-label" for="age">Age</label>
+                                    </div>
+                                 </div>
+
+                                 <!-- email field -->
+                                 <div class="d-flex flex-row align-items-center mb-2">
+                                    <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                                    <div class="form-outline flex-fill mb-0">
+                                       <input type="email" id="email" required class="form-control" />
+                                       <label class="form-label" for="email">Your Email</label>
+                                    </div>
+                                 </div>
+
+                                 <!-- check -->
+                                 <div class="form-check d-flex justify-content-center mb-3">
+                                    <div id="notvalid"></div>
+                                 </div>
+
+                                 <!-- submit button -->
+                                 <div class="row justify-content-center mx-4 mb-1 mb-lg-2">
+                                    <button type="submit" class="btn btn-success btn-lg col-10 col-md-8">Register</button>
+                                 </div>
+
+                                 <!-- if user have an account -->
+                                 <div class="d-flex justify-content-center">
+                                    <p class="small fw-bold mt-2 pt-1 mt-2">Have an account? <a href="login.html" class="link-danger">Sign in</a></p>
+                                 </div>
+                              </form>
+                           </div>
+                           <!------------------------------------ image -->
+                           <div class="col-7 col-md-5 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+                              <img
+                                 src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                                 class="img-fluid"
+                                 alt="Sample image"
+                              />
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.js"></script>
+   </body>
+</html>

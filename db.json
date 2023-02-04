@@ -1,0 +1,228 @@
+{
+   "users": [
+      {
+         "id": 1,
+         "firstName": "Ahmed",
+         "lastName": "Abdelnaser",
+         "address": "Qutur station",
+         "age": "33",
+         "email": "geino54@gmail.com",
+         "userName": "admin",
+         "password": "1234",
+         "type": "admin"
+      },
+      {
+         "id": 2,
+         "firstName": "alaa",
+         "lastName": "aly",
+         "address": "tanta",
+         "age": "44",
+         "email": "alaa@gamil.com",
+         "userName": "alaa3589",
+         "password": "JGk@RSkAwJ",
+         "type": "security"
+      },
+      {
+         "id": 3,
+         "firstName": "Aya",
+         "lastName": "Emad",
+         "address": "Qutur",
+         "age": "23",
+         "email": "aemad@gmail.com",
+         "userName": "ayae5612",
+         "password": "x2jaHWu26@",
+         "type": "employee"
+      },
+      {
+         "id": 4,
+         "firstName": "mohamed",
+         "lastName": "salah",
+         "address": "tanta city",
+         "age": "26",
+         "email": "msalah@gmail.com",
+         "userName": "mohamed2163_",
+         "password": "WMowKbITFm",
+         "type": "employee"
+      },
+      {
+         "id": 5,
+         "firstName": "hossam",
+         "lastName": "salah",
+         "address": "damietta",
+         "age": "26",
+         "email": "hossamsalahabbas@gmail.com",
+         "userName": "hossam9712@",
+         "password": "a9TRVQnZSA",
+         "type": "security"
+      }
+   ],
+   "pending": [
+      {
+         "id": 1,
+         "firstName": "mohamed",
+         "lastName": "adel",
+         "address": "cairo",
+         "age": "36",
+         "email": "mohameda@yahoo.com",
+         "type": "employee"
+      },
+      {
+         "id": 2,
+         "firstName": "mohamed",
+         "lastName": "aly",
+         "address": "cairo",
+         "age": "40",
+         "email": "moaly@yahoo.com",
+         "type": "employee"
+      },
+      {
+         "id": 3,
+         "firstName": "Ahmed",
+         "lastName": "ibrahem",
+         "address": "Qutur station",
+         "age": "44",
+         "email": "iahmed@gmail.com",
+         "type": "employee"
+      },
+      {
+         "id": 4,
+         "firstName": "walid",
+         "lastName": "essam",
+         "address": "assiut",
+         "age": "23",
+         "email": "waleedessam818@gmail.com",
+         "type": "employee"
+      },
+      {
+         "id": 5,
+         "firstName": "ziad",
+         "lastName": "nady",
+         "address": "nasr city",
+         "age": "23",
+         "email": "ziadn@gmail.com",
+         "type": "employee"
+      }
+   ],
+   "attendence": [
+      {
+         "id": 1,
+         "userId": 1,
+         "in": "3:20:23 AM",
+         "date": "2023-01-22",
+         "state": "not late",
+         "absence": false,
+         "out": "1:53:57 PM",
+         "excuse": false
+      },
+      {
+         "id": 2,
+         "userId": 2,
+         "in": "3:20:41 AM",
+         "date": "2023-01-23",
+         "state": "not late",
+         "absence": false,
+         "out": "3:20:44 AM",
+         "excuse": true
+      },
+      {
+         "id": 3,
+         "userId": 1,
+         "in": "1:53:07 PM",
+         "date": "2023-01-21",
+         "state": "Late",
+         "absence": false,
+         "out": "1:54:47 PM",
+         "excuse": true
+      },
+      {
+         "id": 4,
+         "userId": 1,
+         "in": "3:05:33 PM",
+         "date": "2023-01-23",
+         "state": "",
+         "absence": true,
+         "out": "3:45:32 PM",
+         "excuse": ""
+      },
+      {
+         "id": 5,
+         "userId": 3,
+         "in": "3:05:33 PM",
+         "date": "2023-01-23",
+         "state": "",
+         "absence": true,
+         "out": "3:45:32 PM",
+         "excuse": ""
+      },
+      {
+         "id": 6,
+         "userId": 3,
+         "in": "1:53:07 PM",
+         "date": "2023-01-21",
+         "state": "Late",
+         "absence": false,
+         "out": "1:54:47 PM",
+         "excuse": false
+      },
+      {
+         "id": 7,
+         "userId": 2,
+         "in": "1:53:07 PM",
+         "date": "2023-01-20",
+         "state": "Late",
+         "absence": false,
+         "out": "1:54:47 PM",
+         "excuse": true
+      },
+      {
+         "id": 8,
+         "userId": 1,
+         "in": "12:33:45 AM",
+         "date": "2023-01-25",
+         "state": "On Time",
+         "absence": "",
+         "out": "12:34:04 AM",
+         "excuse": true
+      },
+      {
+         "id": 9,
+         "userId": 3,
+         "in": "1:19:46 AM",
+         "date": "2023-01-25",
+         "state": "On Time",
+         "absence": "",
+         "out": "1:30:00 AM",
+         "excuse": true
+      },
+      {
+         "id": 10,
+         "userId": 4,
+         "in": "8:19:46 AM",
+         "date": "2023-01-25",
+         "state": "On Time",
+         "absence": "",
+         "out": "1:20:00 PM",
+         "excuse": true
+      },
+      {
+         "id": 11,
+         "userId": 5,
+         "in": "8:45:56 AM",
+         "date": "2023-01-25",
+         "state": "On Time",
+         "absence": "",
+         "out": "4:10:00 PM",
+         "excuse": false
+      },
+      {
+         "id": 12,
+         "userId": 2,
+         "in": "8:50:10 AM",
+         "date": "2023-01-25",
+         "state": "On Time",
+         "absence": "",
+         "out": "4:20:00 PM",
+         "excuse": false
+      }
+   ]
+}
