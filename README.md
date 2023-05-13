@@ -29,15 +29,15 @@
    - Home Page
    - Profile Page
    - Attendance Page
-
+![1](https://github.com/ahmedabdelnaser70/Attendance-System-JS/assets/112420984/c9447a37-b693-4832-ae63-c489a3161eb3)
 3. Implement the frontend code to make it work with the following functionalities:
    - [x] new employees must register his / her data to be able to log in next time.
    - [x] no Registration Allowed for duplicate emails.
    - [x] After registration, an e-mail will be sent to employee email. holding a
      unique username (Random Code) and a password (search for how to send Email using js). The employee can log in the system using those two fields after admin confirmation.
    - [x] The Attendance page will be viewed to the employee who is responsible for the attendance system.
-    -
-            ![1](https://github.com/ahmedabdelnaser70/Attendance-System-JS/assets/112420984/c9447a37-b693-4832-ae63-c489a3161eb3)
+    
+         ![1](https://github.com/ahmedabdelnaser70/Attendance-System-JS/assets/112420984/c9447a37-b693-4832-ae63-c489a3161eb3)
           
    - [x] If the same username entered another time, the system will register
      departure for employee not attendance again.
