@@ -37,7 +37,7 @@
      unique username (Random Code) and a password (search for how to send Email using js). The employee can log in the system using those two fields after admin confirmation.
    - [x] The Attendance page will be viewed to the employee who is responsible for the attendance system.
         <p align="center">
-          <img  src="./images/attendance.PNG">
+          ![1](https://github.com/ahmedabdelnaser70/Attendance-System-JS/assets/112420984/e367c346-bdf9-437f-a56e-de538675ce0d)
         </p>  
    - [x] If the same username entered another time, the system will register
      departure for employee not attendance again.
